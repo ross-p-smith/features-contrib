@@ -3,16 +3,17 @@
         "image": "mcr.microsoft.com/devcontainers/base:debian",
         "features": {
             "porter": {
-                "terraformMixinVersion": "latest",
-                "azMixinVersion": "latest",
-                "awsMixinVersion": "latest",
-                "dockerMixinVersion": "latest",
-                "dockerComposeMixinVersion": "latest",
-                "gcloudMixinVersion": "latest",
-                "helmMixinVersion": "latest",
-                "armMixinVersion": "latest",
-                "azurePluginVersion": "latest",
-                "kubernetesPluginVersion": "latest"
+                "terraformMixinVersion": "latest"
+                // ,
+                // "azMixinVersion": "latest",
+                // "awsMixinVersion": "latest",
+                // "dockerMixinVersion": "latest",
+                // "dockerComposeMixinVersion": "latest",
+                // "gcloudMixinVersion": "latest",
+                // "helmMixinVersion": "latest",
+                // "armMixinVersion": "latest",
+                // "azurePluginVersion": "latest",
+                // "kubernetesPluginVersion": "latest"
             }
         },
         "remoteUser": "vscode"

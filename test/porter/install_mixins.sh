@@ -6,7 +6,12 @@ source dev-container-features-test-lib
 
 check "porter --version" porter --version
 
-ls -al "$PORTER_HOME/mixins"
+echo "PORTER_HOME: $PORTER_HOME"
+echo "User: $(whoami)"
+echo "Remote User: $_REMOTE_USER"
+
+ls -al "$PORTER_HOME"
+#ls -al "$PORTER_HOME/mixins"
 
 # Old check with grep
 check "porter mixin list | grep terraform" porter mixin list | grep terraform
