@@ -75,7 +75,7 @@ jobs:
             fi
           
           elif [ ${{ github.event_name	}} == 'workflow_call' ]; then
-            echo 'features_to_test=${{ ["porter"] }}' >> $GITHUB_OUTPUT
+            echo 'features_to_test=${{ "porter" }}' >> $GITHUB_OUTPUT
           fi
 
       - name: binning
