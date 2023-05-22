@@ -16,6 +16,8 @@
                 // "kubernetesPluginVersion": "latest"
             }
         },
-        "remoteUser": "vscode"
+        "remoteUser": "vscode",
+        "uid": "1000",
+        "gid": "1000"
     }
 }
