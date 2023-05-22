@@ -1,0 +1,12 @@
+{
+    "test_mixins": {
+        "image": "mcr.microsoft.com/devcontainers/base:jammy",
+        "features": {
+            "porter": {
+                "mixins": ["az"],
+                "plugins": ["azure"]
+            }
+        },
+        "remoteUser": "vscode"
+    }
+}
