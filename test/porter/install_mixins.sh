@@ -6,6 +6,8 @@ source dev-container-features-test-lib
 
 check "porter --version" porter --version
 
+ls -al "$PORTER_HOME/mixins"
+
 # Old check with grep
 check "porter mixin list | grep terraform" porter mixin list | grep terraform
 
