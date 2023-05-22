@@ -4,12 +4,7 @@ set -e
 
 source dev-container-features-test-lib
 
-echo "PORTER_HOME: $PORTER_HOME"
-echo "User: $(whoami)"
-echo "UserId: $(id -u)"
-echo "GroupId: $(id -g)"
-echo "Remote User: $_REMOTE_USER"
-echo "Remote User: $REMOTE_USER"
+echo "User: $(id)"
 ls -al "$PORTER_HOME"
 
 check "porter --version" porter --version
