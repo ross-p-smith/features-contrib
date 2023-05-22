@@ -15,6 +15,7 @@
                 // "azurePluginVersion": "latest",
                 // "kubernetesPluginVersion": "latest"
             }
-        }
+        },
+        "remoteUser": 1000
     }
 }
