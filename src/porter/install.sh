@@ -109,7 +109,7 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/bash-command:1.0.0" \
-    --option command='chown -hR ${_REMOTE_USER}:${_REMOTE_USER} /usr/local/porter'
+    --option command='chown -R ${_REMOTE_USER}:${_REMOTE_USER} /usr/local/porter'
 
 
 echo 'Done!'

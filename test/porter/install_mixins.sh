@@ -8,6 +8,8 @@ check "porter --version" porter --version
 
 echo "PORTER_HOME: $PORTER_HOME"
 echo "User: $(whoami)"
+echo "User: $(id -u -n)"
+echo "Group: $(id -g -n)"
 echo "Remote User: $_REMOTE_USER"
 
 ls -al "$PORTER_HOME"
